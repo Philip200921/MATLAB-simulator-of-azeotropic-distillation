@@ -72,34 +72,4 @@ function [y, K, T_bub] = VLE_bubble(x, P, params)
     y = Ky / sum(Ky);    % normalise to unit sum
 end
 
-
-
-
-
-
-
-
-% function [y, K, T_bub] = VLE_bubble(x, P_local, params_local)
-%     x = x(:)'; 
-%     if length(x) ~= 3
-%         error('VLE_bubble supports only 3 components.');
-%     end
-% 
-%     % Initial guess: weighted boiling points
-%     Tb_pure = [351.4, 373.1, 353.9];  % EtOH, H2O, CyHex
-%     T0 = sum(x .* Tb_pure);
-% 
-%     opts = optimset('Display','off','TolFun',1e-10,'TolX',1e-10,'MaxIter',500);
-% 
-%     try
-%         T_bub = fsolve(@(T) total_pressure_error(T, x, params_local, P_local), T0, opts);
-%     catch
-%         warning('fsolve failed in VLE_bubble → using initial guess.');
-%         T_bub = T0;
-%     end
-% 
-%     gamma = activity_coeff_NRTL(x, T_bub, params_local);
-%     ps    = psat_T(T_bub, params_local);
-%     K     = gamma .* ps ./ P_local;
-%     y     = (K .* x) / sum(K .* x);   % normalized
 % end
