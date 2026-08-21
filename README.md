@@ -86,7 +86,3 @@ This simulator was developed in 2025 as part of my BTech research project and is
 ## Author
 
 Adewumi Damola Philip — [adewumidamolaphilip@gmail.com](mailto:adewumidamolaphilip@gmail.com)
-
-## License
-
-MIT — see [LICENSE](LICENSE) for details.
