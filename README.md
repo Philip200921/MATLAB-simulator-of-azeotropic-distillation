@@ -83,15 +83,6 @@ run_DOE_table
 
 This simulator was developed in 2025 as part of my BTech research project and is the basis of a manuscript currently under review. My broader research interest is in extending this kind of numerical process modelling toward computational fluid dynamics for multiphase flow — resolving the gas-liquid interactions that a stage-by-stage model like this one approximates rather than spatially resolves.
 
-## References
-
-- Renon, H., Prausnitz, J.M. (1968). Local compositions in thermodynamic excess functions for liquid mixtures. *AIChE Journal*, 14(1), 135-144.
-- Gomis, V. et al. (2000). Liquid-liquid-vapor equilibrium data for the ethanol-water-cyclohexane system. *Fluid Phase Equilibria*, 172, 181-187.
-- Knapp, J.P., Doherty, M.F. (1994). Minimum entrainer flows for heterogeneous azeotropic distillation. *AIChE Journal*, 40(2), 243-268.
-- Doherty, M.F., Malone, M.F. (2001). *Conceptual Design of Distillation Systems*. McGraw-Hill.
-- Michelsen, M.L. (1982). The isothermal flash problem. Part I: Stability. *Fluid Phase Equilibria*, 9, 21-32.
-- DIPPR Project 801 database (vapour pressure correlation parameters).
-
 ## Author
 
 Adewumi Damola Philip — [adewumidamolaphilip@gmail.com](mailto:adewumidamolaphilip@gmail.com)
