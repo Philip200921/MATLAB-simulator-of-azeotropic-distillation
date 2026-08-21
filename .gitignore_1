@@ -1,0 +1,15 @@
+# MATLAB autosave / temp files
+*.asv
+*.autosave
+
+# Generated binary data (CSV versions of the same results are tracked instead)
+*.mat
+
+# OS / editor clutter
+*.lnk
+Thumbs.db
+.DS_Store
+
+# Simulink / codegen (not used here, kept for safety if the project grows)
+slprj/
+codegen/
